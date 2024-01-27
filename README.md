@@ -16,3 +16,9 @@ npm install
 npm start
 ```
 6. Open the URL: [Chat_APP](http://localhost:3000)
+---
+##Steps to Experience the real-time chat:
+1. Open the [Chat_APP](http://localhost:3000) in two browser windows.
+2. Send message from one browser and see the message in the other window.
+
+Happy Chatting :) 
