@@ -1,0 +1,41 @@
+.chatBody {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    left: 25vw;
+    border: 5px solid greenyellow;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chatBody > div {
+    width: fit-content;
+    padding: 2%;
+    border-radius: 10%;
+    margin-inline-start: 2%;
+    margin-block-start: 1%;
+    background-color: darkkhaki;
+    color: brown;
+    text-wrap: pretty;
+    font-family: cursive;
+}
+
+.input {
+    position: absolute;
+    top: 65vh;
+    left: 25vw;
+}
+
+.input > input {
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid goldenrod;
+    border-radius: 20%;
+}
+
+.input > button {
+    width: 10vw;
+    height: 5vh;
+    background-color: goldenrod;
+    border-radius: 100%;
+}
